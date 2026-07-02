@@ -1,0 +1,70 @@
+[
+  {
+    "label": "Conventional 30 YR Fixed",
+    "tag": "CONVENTIONAL",
+    "color": "#2563eb",
+    "amortizationType": "Fixed",
+    "termMonths": 360,
+    "lender": "West Capital Lending",
+    "tiers": [
+      { "minFico": 760, "maxLtv": 80, "rate": 6.75 },
+      { "minFico": 740, "maxLtv": 80, "rate": 6.875 },
+      { "minFico": 720, "maxLtv": 80, "rate": 7.0 },
+      { "minFico": 700, "maxLtv": 80, "rate": 7.125 },
+      { "minFico": 680, "maxLtv": 80, "rate": 7.25 },
+      { "minFico": 760, "maxLtv": 97, "rate": 6.875 },
+      { "minFico": 740, "maxLtv": 97, "rate": 7.0 },
+      { "minFico": 720, "maxLtv": 97, "rate": 7.125 },
+      { "minFico": 700, "maxLtv": 97, "rate": 7.25 },
+      { "minFico": 680, "maxLtv": 97, "rate": 7.375 }
+    ]
+  },
+  {
+    "label": "Conventional 7/6 ARM",
+    "tag": "ARM",
+    "color": "#16a34a",
+    "amortizationType": "Adjustable",
+    "termMonths": 360,
+    "lender": "West Capital Lending",
+    "tiers": [
+      { "minFico": 760, "maxLtv": 80, "rate": 6.25 },
+      { "minFico": 740, "maxLtv": 80, "rate": 6.375 },
+      { "minFico": 720, "maxLtv": 80, "rate": 6.5 },
+      { "minFico": 700, "maxLtv": 80, "rate": 6.625 },
+      { "minFico": 680, "maxLtv": 80, "rate": 6.75 },
+      { "minFico": 760, "maxLtv": 97, "rate": 6.375 },
+      { "minFico": 740, "maxLtv": 97, "rate": 6.5 },
+      { "minFico": 720, "maxLtv": 97, "rate": 6.625 },
+      { "minFico": 700, "maxLtv": 97, "rate": 6.75 },
+      { "minFico": 680, "maxLtv": 97, "rate": 6.875 }
+    ]
+  },
+  {
+    "label": "HELOC Variable",
+    "tag": "HELOC",
+    "color": "#9333ea",
+    "amortizationType": "Variable",
+    "termMonths": 360,
+    "lender": "West Capital Lending",
+    "tiers": [
+      { "minFico": 740, "maxLtv": 85, "rate": 8.75 },
+      { "minFico": 720, "maxLtv": 85, "rate": 8.99 },
+      { "minFico": 700, "maxLtv": 85, "rate": 9.25 },
+      { "minFico": 680, "maxLtv": 85, "rate": 9.5 }
+    ]
+  },
+  {
+    "label": "HELOAN Fixed 30 Year",
+    "tag": "HELOAN",
+    "color": "#f59e0b",
+    "amortizationType": "Fixed",
+    "termMonths": 360,
+    "lender": "West Capital Lending",
+    "tiers": [
+      { "minFico": 740, "maxLtv": 85, "rate": 9.25 },
+      { "minFico": 720, "maxLtv": 85, "rate": 9.49 },
+      { "minFico": 700, "maxLtv": 85, "rate": 9.75 },
+      { "minFico": 680, "maxLtv": 85, "rate": 9.99 }
+    ]
+  }
+]
